@@ -1,4 +1,3 @@
-# emmc + qspi_controller
 emmc + qspi_controller : this is a mix project for emmc_ht3 daughter card  
 in qspi part, this daughter card is using Winbone W25Q256JW nor flash as the external qspi flash device  
 
