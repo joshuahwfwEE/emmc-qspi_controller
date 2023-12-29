@@ -8,5 +8,5 @@ this qspi contoller support 4 input command:
 4. erase_en: The Erase instruction sets all memory within a specified sector (4K-bytes) to the erased state
 
      following is the state machine of the qspi controller
-![alt text](https://github.com/joshuahwfwEE/emmc-qspi_controller/blob/main/qspi_contoller_state_machine.png?raw=true)
+![alt text](https://github.com/joshuahwfwEE/emmc-qspi_controller/blob/main/qspi_controller_state_machine.png?raw=true)
    
