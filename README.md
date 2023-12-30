@@ -7,6 +7,7 @@ this qspi contoller support 4 input command:
 3. readid_en: JEDEC instruction assigned Manufacturer ID byte for Winbond (EFh) and two Device ID bytes, Memory Type (ID15-ID8) and Capacity (ID7-ID0) are th Manufacturer ID (EFh) from flash device to "read_data"  
 4. erase_en: The Erase instruction sets all memory within a specified sector (4K-bytes) to the erased state
 
-     following is the state machine of the qspi controller
+
+following is the state machine of the qspi controller
 ![alt text](https://github.com/joshuahwfwEE/emmc-qspi_controller/blob/main/qspi_controller_state_machine.png?raw=true)
    
