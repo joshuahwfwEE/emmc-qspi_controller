@@ -1,6 +1,10 @@
 emmc + qspi_controller : this is a mix project for emmc_ht3 daughter card  
 in qspi part, this daughter card is using Winbone W25Q256JW nor flash as the external qspi flash device  
 
+single spi controller vs quad spi controller:  
+quad spi extend the throughput, it can transfer 4 component per clk while single spi can only do 1  
+
+
 this qspi contoller support 4 input command:  
 1. write_en: 24bit programable address: "addr" and 1 word programable data : "data"  will be associated to Page Program instruction  
 2. read_en: Read Data instruction will give the data to "read_data" from the address relative to "addr"
